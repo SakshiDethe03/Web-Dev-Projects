@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    background-color: rgb(2, 2, 255);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.logo {
+    font-size: 40px;
+}
+
+ul li {
+    padding-left: 30px;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover {
+    padding-bottom: 5px;
+    border-bottom: 2px solid white;
+}
+
+.searchBox {
+    padding-right: 20px;
+}
+
+#searchTxt {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.btn {
+    border: 1px solid #f9f9f9;
+    padding: 6px 19px;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    background-color: #8bff9e;
+    color: rgb(0, 0, 0);
+}
+
+input:focus {
+    outline: none;
+}
+
+.wrapper {
+    margin-left: 20px;
+}
+
+.heading {
+    padding: 10px 0;
+}
+
+.note-btn {
+    background-color: rgb(6, 52, 255);
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    margin: 15px 0;
+    color: white;
+    font-size: 15px;
+}
+
+.note-btn:hover {
+    background-color: rgb(4, 10, 188);
+}
+
+.class {
+    padding: 10px 0;
+}
+
+.showNotes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    margin: 10px;
+    border: 3px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.deleteBtn {
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 10px;
+    padding: 8px 19px;
+    margin-top: 10px;
+    color: white;
+}
+
+.deleteBtn:hover {
+    background-color: rgb(216, 1, 1);
+}
+
+.wrapper input {
+    padding: 3px 15px;
+}
